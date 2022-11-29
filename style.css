@@ -18,7 +18,7 @@ nav{
     padding-right: 8%;
     
 }
-.navigation ul li{
+nav ul li{
     color: #7a7a7a;
     list-style-type: none;
     display: inline-block;
@@ -26,7 +26,7 @@ nav{
     position: relative;
   
 }
-.navigation ul li a{
+nav ul li a{
     color: #7a7a7a;
     text-decoration: none;
     font-weight: bold;
@@ -35,12 +35,18 @@ nav{
    
 
 }
+nav ul li a:hover{
+    color: #ff006e;
+    transition: .4s;
+}
+
 
 
 .logo{
     font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 body{
@@ -57,10 +63,6 @@ body{
 
 
 
-.navigation ul li a:hover{
-    color: #0096c7;
-    transition: .4s;
-}
 
 h1{
     margin: 20px 0px 20px;
