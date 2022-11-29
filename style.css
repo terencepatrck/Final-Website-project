@@ -3,6 +3,7 @@
     padding:0;
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
+    background-color: #e3e4e6;
 }
 
 .navigation{
@@ -19,7 +20,7 @@ nav{
     
 }
 nav ul li{
-    color: #7a7a7a;
+    color: #000;
     list-style-type: none;
     display: inline-block;
     padding: 15px 10px;
@@ -27,7 +28,7 @@ nav ul li{
   
 }
 nav ul li a{
-    color: #7a7a7a;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -36,42 +37,27 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-    color: #ff006e;
+    color: #f07167;
     transition: .4s;
 }
 
 
 
 .logo{
+    color: #000;
     font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
     text-transform: capitalize;
 }
 
-body{
-    background-color: #fefae0;
-    color:#03071e;
-  
 
-    position:relative;
 
+
+.text-intro{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    translate: translateY(-50%);
 }
 
-
-
-
-
-
-
-h1{
-    margin: 20px 0px 20px;
-    font-size: 65px;
-    margin-top: 0px;
-    text-align: justify;
-}
-h4{
-    color: #7a7a7a;
-    margin-bottom: 0px;
-   
-}
