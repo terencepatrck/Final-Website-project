@@ -56,8 +56,23 @@ nav ul li a:hover{
 
 .text-intro{
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 8%;
     translate: translateY(-50%);
 }
 
+h1{
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+h4{
+    letter-spacing: 2px;
+    font-size: 19px;
+}
