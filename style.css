@@ -10,21 +10,28 @@ nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
-    align-items: center;
+   align-items: flex-end;
 }
 
 .navigation{
     flex: 1;
     text-align: right;
-    font-family: "Roboto", sans-serif;
+    font:400 14px/1.8 "Roboto", sans-serif;
    
 }
 
 .navigation ul li{
     color: #7a7a7a;
-    list-style: none;
+    list-style-type: none;
     display: inline-block;
-    padding: 8px 10px;
+    padding: 15px 10px;
     position: relative;
     
+}
+
+.navigation ul li a{
+    color: #7a7a7a;
+    text-decoration: none;
+    font-size: 14px /1.8;
+
 }
