@@ -91,4 +91,9 @@ h3{
     margin: auto;
 }
 
+.container{
+    padding-top: 50px;
+    display: flex;
+    max-width: 1600;
+}
 
