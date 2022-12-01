@@ -100,21 +100,43 @@ h3{
 }
 .carpt-text{
     background-color: #f07167;
+
 }
 .carp{
     background-color: #f07167;
 }
 .carp-container{
+    margin-bottom: auto;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    width: 400px;
+  
+    
+
+}
+.carp-container .object-container{
+    flex: 1;
+    padding: 20px;
+}
+.object-container{
+    font-size: 120%;
+    text-align: justify;
+    text-justify: inter-word;
     flex-wrap: wrap;
-    padding: 15px 25px 15px 15px;
+    vertical-align: middle;
 }
 
-.carp-container .carp-content{
-    flex: 1;
-    padding: 10px;;
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+
+
  /* p{
     display: block;
     margin-block-start: 1em;
