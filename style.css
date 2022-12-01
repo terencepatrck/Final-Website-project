@@ -7,7 +7,7 @@
 }
 
 .navigation{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 nav{
@@ -95,5 +95,7 @@ h3{
     padding-top: 50px;
     display: flex;
     max-width: 1600;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
