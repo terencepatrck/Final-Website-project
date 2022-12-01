@@ -17,6 +17,15 @@ nav{
     padding-top: 47px;
     padding-left: 8%;
     padding-right: 8%;
+    border-bottom: 1px solid #1b1010;
+    border-radius: 0;
+    z-index: 1000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    margin-bottom: 0;
+    padding: 20px 0;
+
     
 }
 nav ul li{
@@ -59,6 +68,10 @@ nav ul li a:hover{
     top: 30%;
     left: 8%;
     translate: translateY(-50%);
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 30x;
 }
 
 h1{
@@ -66,6 +79,7 @@ h1{
     font-size: 70px;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 
 
@@ -74,6 +88,7 @@ h3{
     margin-bottom: 50px;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 
 
