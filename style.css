@@ -99,12 +99,15 @@ h3{
     justify-content: space-evenly;
 }
 .carpt-text{
-    background-color: #f07167;
+    
 
 }
 .carp{
-    background-color: #f07167;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    
 }
+    
 .carp-container{
     margin-bottom: auto;
     display: flex;
