@@ -105,21 +105,21 @@ h3{
     background-color: #f07167;
 }
 .carp-container{
-    margin-bottom: auto;
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    width: 400px;
-
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
 }
 
-
-
- p{
+.carp-container .carp-content{
+    flex: 1;
+    padding: 10px;;
+}
+ /* p{
     display: block;
     margin-block-start: 1em;
     margin-inline-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: opx;
 }
- 
+  */
