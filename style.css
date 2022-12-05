@@ -95,3 +95,40 @@ h3{
     margin: auto;
 }
 /*carp*/
+.carp{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+}
+img{
+    width: 500px;
+    height: 670px;
+}
+
+.carp-section{
+    display: flex;
+    justify-content: flex-start;
+  
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+.mediacontent{
+    text-align: justify;
+}
+.carp-section .mediacontent{
+    flex: 2;
+    padding:20px;
+}
+
+.re-img{
+    width: 285px;
+    height: 385px;
+}
+
+.re-section{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
