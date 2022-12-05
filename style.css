@@ -7,10 +7,12 @@
 }
 
 .navigation{
+
     height: 80vh;
     width: 100%;
 }
 nav{
+    
     display: flex;
     align-items: center;
     justify-content:space-evenly;    
@@ -29,6 +31,7 @@ nav{
     
 }
 nav ul li{
+
     color: #000;
     list-style-type: none;
     display: inline-block;
@@ -64,7 +67,7 @@ nav ul li a:hover{
 
 
 .text-intro{
-    position: absolute;
+    position:absolute;
     top: 30%;
     left: 8%;
     translate: translateY(-50%);
@@ -92,41 +95,43 @@ h3{
     margin: auto;
 }
 /*carp*/
+.hero-container{
+    flex-wrap: wrap ;
+}
 
-.container{
+ 
+/* .container{
     
     padding-top: 50px;
     display: flex;
-    max-width: 1600;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
 
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+ */
 
 .carp{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     
 }
     
 
 .carp-container{
     
-    margin-bottom: auto;
-    display: block;
-    flex-direction: column-reverse;
-    align-items: inherit;
-    width:400px;
-    object-fit: contain;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    flex: 1;
+   width: 100px;
+
 
 } 
 
-.object-container{
-    font-size: 20px;
-    text-align: justify;
+.objectcontainer{
+    display: flex;
+    font-size: 10px;
+    text-align:center;
     text-justify: inter-word;
-    flex-wrap: wrap;
     vertical-align: middle;
 }
-
- 
