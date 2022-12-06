@@ -145,7 +145,10 @@ img{
 }
 
 .type-container{
-    display: flex;
+    margin: 6% 00 36%;
+    position:relative;
+    display: block;
+    width:100%;
     flex-wrap: wrap;
     flex-direction: row;
   justify-content: space-evenly;
