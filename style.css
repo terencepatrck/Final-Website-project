@@ -187,3 +187,15 @@ img{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+/*coding*/
+
+.codingtext{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    background-color: #003f88;
+ 
+    color: #ebebeb;
+    width: 100%;
+}
+
