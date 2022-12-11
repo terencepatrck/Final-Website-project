@@ -195,10 +195,10 @@ img{
     display: flex;
     max-width: 1450px;
     flex-wrap: wrap;
-    margin: row;
+    flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
-    grid-row: 4;
+    /* grid-row: 4; */
 }
 
 .codingtext{
@@ -211,19 +211,33 @@ img{
     width: 100%;
 }
 .coding-con{
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     color: #000;
     flex-wrap: wrap;
-    margin-bottom: auto;
     display: flex;
+    margin-bottom: auto;
     flex-direction: row;
-    align-items: stretch;
-
+    height:700px;
+align-items: stretch;
     margin-bottom: 113px;
 }
-.coding-img{
-    width: 875px;
-    height: 525px;
 
+
+.coding-text{
+    
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    
+}
+
+a{
+    text-decoration: underline;
+    font-style: bold;
+    color: rgb(71, 94, 224);
+    cursor: pointer;
 }
