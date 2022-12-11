@@ -23,7 +23,7 @@ nav{
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     position: fixed;
-    top: 70;
+    top: 50;
     width: 100%;
     display: flex;
     align-items: center;
@@ -157,8 +157,12 @@ img{
     grid-row: 4;
 }
 .grid-img{
+    background: rgb(255, 255, 255);
     display: block;
    
+}
+img{
+    border: 1.2px solid #000;
 }
 .type.img{
     width: 300px;
