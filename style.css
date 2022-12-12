@@ -241,3 +241,26 @@ a{
     color: rgb(71, 94, 224);
     cursor: pointer;
 }
+
+/*footer*/
+
+footer{
+    background: #000;
+    padding: 1%;
+    width: 100%;
+}
+.master{
+    
+    font-size: 28px;
+    color: #fff;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+    font-size: 12px;
+}
