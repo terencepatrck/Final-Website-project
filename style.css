@@ -245,6 +245,9 @@ a{
 /*footer*/
 
 footer{
+    margin-top: 60px;
+
+  
     background: #000;
     padding: 1%;
     width: 100%;
@@ -297,3 +300,4 @@ li{
 .para-outro{
    text-transform: lowercase;
 }
+
