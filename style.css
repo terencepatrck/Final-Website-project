@@ -273,3 +273,27 @@ li{
     width: 500px;
     height: 500px;
 }
+
+/*REFLECTION*/
+
+.reflection-outro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    position:relative;
+}
+
+.text-outro{
+
+    font-family:'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.para-outro{
+   text-transform: lowercase;
+}
