@@ -183,8 +183,9 @@ img{
 }
 .type-text{
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    font-size: 16px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -226,8 +227,8 @@ img{
 .coding-text{
     
     display:block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 
@@ -296,7 +297,14 @@ li{
 }
 
 .para-outro{
-   text-transform: lowercase;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size:20px;
 }
 
 .reflec-text{
