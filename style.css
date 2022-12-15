@@ -193,12 +193,12 @@ img{
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
-    /* max-width: 1450px; */
+   
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
-    /* grid-row: 4; */
+  
 }
 
 .codingtext{
@@ -218,8 +218,7 @@ img{
     display: flex;
     margin-bottom: auto;
     flex-direction: row;
-    /* height:700px; */
-/* align-items: stretch; */
+
     margin-bottom: 113px;
 }
 
@@ -291,13 +290,20 @@ li{
 
 .text-outro{
 
-    font-family:'Montserrat';
-    font-size: 30px;
+    font-family: 'Montserrat';
     font-weight: 600;
-    padding-bottom: 20px;
+    font-size: 35px;
 }
 
 .para-outro{
    text-transform: lowercase;
 }
 
+.reflec-text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    background-color: #003f88;
+    color: #ebebeb;
+    width: 100%;
+}
